@@ -1,0 +1,34 @@
+{
+  "name": "cordova-plugin-wkwebview-cookies",
+  "version": "1.0.0",
+  "description": "Cordova WKWebView Cookies Plugin",
+  "types": "./types/index.d.ts",
+  "cordova": {
+    "id": "cordova-plugin-wkwebview-cookies",
+    "platforms": [
+      "ios"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moodlemobile/cordova-plugin-wkwebview-cookies"
+  },
+  "bugs": {
+    "url": "https://github.com/moodlemobile/cordova-plugin-wkwebview-cookies/issues"
+  },
+  "keywords": [
+    "cordova",
+    "wkwebviewcookies",
+    "ecosystem:cordova",
+    "cordova-ios"
+  ],
+  "engines": {
+    "cordovaDependencies": {
+      "3.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "author": "Moodle Pty Ltd",
+  "license": "Apache-2.0"
+}
