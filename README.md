@@ -25,7 +25,7 @@ description: Plugin to manage cookies in WKWebView (iOS).
 
 Plugin to manage cookies in WKWebView. This is needed in order to fix cookies not stored in iframes in WKWebView.
 
-Please notice that this plugin requires cordova-plugin-ionic-webview.
+Please notice that this plugin requires you to use WKWebView.
 
 
 ## Installation
