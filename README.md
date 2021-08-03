@@ -27,13 +27,13 @@ Plugin to manage cookies in WKWebView. This is needed in order to fix cookies no
 
 Please notice that this plugin requires you to use WKWebView.
 
-
 ## Installation
 
-This plugin isn't published in npm because it's private, so it must be installed via repo url:
+You can install the plugin using the following command:
 
-    cordova plugin add  https://github.com/moodlemobile/cordova-plugin-wkwebview-cookies
-
+```sh
+cordova plugin add cordova-plugin-wkwebview-cookies
+```
 
 ## Methods
 
@@ -41,30 +41,32 @@ This plugin defines global `WKWebViewCookies` object.
 
 Although in the global scope, it is not available until after the `deviceready` event.
 
-    document.addEventListener("deviceready", onDeviceReady, false);
-    function onDeviceReady() {
-        console.log(WKWebViewCookies);
-    }
+```js
+function onDeviceReady() {
+    console.log(WKWebViewCookies);
+}
 
-- WKWebViewCookies.setCookie
+document.addEventListener("deviceready", onDeviceReady, false);
+```
 
-## WKWebViewCookies.setCookie
+### WKWebViewCookies.setCookie
 
 Stores a cookie in the WebView. If you only want to store a cookie to make cookies in iframe work then you can store any name/value, just make sure that the domain belongs to the iframe domain.
 
-
-### Supported Platforms
+## Supported Platforms
 
 - iOS 11+
 
-### Quick Example
+## Quick Example
 
-    WKWebViewCookies.setCookie({
-        name: 'CookieName',
-        value: 'CookieValue',
-        domain: 'example.edu'
-    }).then(function() {
-        // Success.
-    }).catch(function() {
-        // Error.
-    });
+```js
+WKWebViewCookies.setCookie({
+    name: 'CookieName',
+    value: 'CookieValue',
+    domain: 'example.edu'
+}).then(function() {
+    // Success.
+}).catch(function() {
+    // Error.
+});
+```
