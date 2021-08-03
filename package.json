@@ -9,13 +9,9 @@
       "ios"
     ]
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/moodlemobile/cordova-plugin-wkwebview-cookies"
-  },
-  "bugs": {
-    "url": "https://github.com/moodlemobile/cordova-plugin-wkwebview-cookies/issues"
-  },
+  "repository": "github:moodlemobile/cordova-plugin-wkwebview-cookies#main",
+  "homepage": "https://github.com/moodlemobile/cordova-plugin-wkwebview-cookies/tree/main#readme",
+  "bugs": "https://github.com/moodlemobile/cordova-plugin-wkwebview-cookies/issues",
   "keywords": [
     "cordova",
     "wkwebviewcookies",
