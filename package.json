@@ -1,6 +1,6 @@
 {
   "name": "cordova-plugin-wkwebview-cookies",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cordova WKWebView Cookies Plugin",
   "types": "./types/index.d.ts",
   "cordova": {
